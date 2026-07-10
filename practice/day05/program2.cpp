@@ -29,7 +29,7 @@ int main()
     cout << "Enter number of element: ";
     cin >> n;
 
-    cou << "Enter data: ";
+    cout << "Enter data: ";
     for(int i = 0; i<=n-1; i++)
     {
         cin >> x;

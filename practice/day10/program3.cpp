@@ -9,3 +9,30 @@ Output : 1 2 5 10
 
 Author: munja
 */
+
+#include<iostream>
+using namespace std;
+
+void factor_of(int n);
+
+int main()
+{
+    int n;
+    cout << "Enter Number: ";
+    cin >> n;
+    cout << endl;
+
+    factor_of(n);
+    return 0;
+}
+
+void factor_of(int n)
+{
+    cout << "factors of " << n << " is : "; 
+    for(int fact = 1; fact <= n; fact++)
+    {
+        if(n % fact == 0)
+            cout << fact << " ";
+    }
+
+}
