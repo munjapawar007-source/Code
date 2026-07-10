@@ -1,0 +1,15 @@
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.GeneratedMSBuildEditorConfig.editorconfig
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.AssemblyInfoInputs.cache
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.AssemblyInfo.cs
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.csproj.CoreCompileInputs.cache
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.sourcelink.json
+C:\myProjects\GitHub\HaRaCode\raw\bin\Debug\net9.0\raw.exe
+C:\myProjects\GitHub\HaRaCode\raw\bin\Debug\net9.0\raw.deps.json
+C:\myProjects\GitHub\HaRaCode\raw\bin\Debug\net9.0\raw.runtimeconfig.json
+C:\myProjects\GitHub\HaRaCode\raw\bin\Debug\net9.0\raw.dll
+C:\myProjects\GitHub\HaRaCode\raw\bin\Debug\net9.0\raw.pdb
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.dll
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\refint\raw.dll
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.pdb
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\raw.genruntimeconfig.cache
+C:\myProjects\GitHub\HaRaCode\raw\obj\Debug\net9.0\ref\raw.dll
