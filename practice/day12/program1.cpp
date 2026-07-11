@@ -19,14 +19,29 @@ int main()
     int n;
     cout << "enter binary num: ";
     cin >> n;
+    cout << endl;
 
-    binary_to_decimal(n);
+    cout << "decimal: " << binary_to_decimal(n) << endl;
 
     return 0;
 }
 
 int binary_to_decimal(int num)
 {
-    
+    int last_digit = 0;
+    int dec = 0;
+    int base = 1;
 
+    while(num != 0)
+    {
+        last_digit = num%10;
+        num /= 10;
+
+        dec += last_digit  * base;
+        
+        base *= 2;
+    }
+  
+    return dec;
 }
+
