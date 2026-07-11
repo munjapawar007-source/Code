@@ -1,6 +1,25 @@
 #include<iostream>
 using namespace std;
 
+void printArray(int arr[], int n);
+void bubbleSort(int arr[], int n);
+void selectionSort(int arr[], int n);
+
+int main(void)
+{
+    int arr[]={1,7,3,8,9,5,6,2,4};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    puts("Before sort");
+    printArray(arr , n);
+    puts("after sort");
+    selectionSort(arr, n);
+    //bubbleSort(arr, n);
+    printArray(arr , n);
+
+    return 0;
+}
+
 void printArray(int arr[], int n)
 {
     for(int i = 0; i <= n-1; i++)
@@ -43,30 +62,4 @@ void selectionSort(int arr[], int n)
         }
         swap(arr[i], arr[smallestIdx]); 
     }
-}
-
-
-
-int main(void)
-{
-    int arr[]={1,7,3,8,9,5,6,2,4};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    puts("Before sort");
-    printArray(arr , n);
-    puts("after sort");
-    selectionSort(arr, n);
-    printArray(arr , n);
-
-            void printBinaryBit(int num)
-        {
-            for(int i = 3; i >= 0; i--)
-            {
-                this->bit = (num >> i) & 1;
-                cout << "%d" << this->bit;
-            }
-             cout << endl;
-        }
-
-    return 0;
 }

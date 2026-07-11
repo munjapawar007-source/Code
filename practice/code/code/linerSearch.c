@@ -3,21 +3,23 @@
 int main()
 {
     int n;
-    scanf("%d",&n);
-
     int arr[100];
-
-    for(int i = 0; i <= n-1; i++)
+    int size = sizeof(arr)/sizeof(arr[0]);
+   // printf("Fill value in to the array: ");
+    for(int i = 0; i <= size-1; i++)
     {
-        scanf("%d",&arr[i]);
+       arr[i] = i + 1;
     }
+    //printf("%d",arr[5]);
+
+    printf("enter number: ");
+    scanf("%d",&n);
 
     for(int i = 0; i <= n-1; i++)
     {
         if(n == arr[i])
         {
             printf("number is matched\n");
-
         } 
     }
     return 0;

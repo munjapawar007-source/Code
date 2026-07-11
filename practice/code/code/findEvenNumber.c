@@ -6,7 +6,7 @@ int main()
     int n=sizeof(arr)/sizeof(arr[0]);
     int evenNumber;
 
-        printf("evenNumber: ");
+    printf("evenNumber: ");
     for(int i = 0; i <= n-1; i++)
     {
         evenNumber = arr[i] % 2;

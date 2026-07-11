@@ -26,7 +26,7 @@ int is_lower_than_max_height(box b)
 int main(void)
 {
     int n;
-    puts("Enter the number of boxes:");
+    printf("Enter the number of boxes: ");
     scanf("%d", &n);
 
     box *boxes = (box*)malloc(n * sizeof(box));

@@ -23,12 +23,3 @@ int main(void)
 
     return 0;
 }
-
-// int main(void)
-// {
-//     int arr[] = {60,90,50,20,80,70,1,40};
-//     int n = sizeof(arr)/sizeof(arr[0]);
-//     int smallestElement = arr[0];
-
-
-// }
