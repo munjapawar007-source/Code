@@ -45,3 +45,4 @@ int binary_to_decimal(int num)
     return dec;
 }
 
+
