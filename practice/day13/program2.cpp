@@ -29,7 +29,7 @@ int main ()
     }
     catch(const char* msg)
     {
-        std::cerr << msg << '\n';
+        cout << msg << '\n';
     }
     cout << endl;
 
