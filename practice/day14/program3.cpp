@@ -73,6 +73,7 @@ int main()
                 break;
             default:
             cout << "please choose valid choice!\n";
+            break;
         }
     }
 
