@@ -9,7 +9,8 @@ private:
 
 public:
     // --- 0. Normal Constructor ---
-    DataBuffer(size_t bufferSize) : size(bufferSize) {
+    DataBuffer(size_t bufferSize) : size(bufferSize) 
+    {
         data = new int[size];
         std::cout << "[Constructor] Allocated buffer of size " << size << "\n";
     }
@@ -32,7 +33,8 @@ public:
     }
 
     // --- 3. Copy Assignment Operator ---
-    DataBuffer& operator=(const DataBuffer& other) {
+    DataBuffer& operator=(const DataBuffer& other) 
+    {
         std::cout << "[Copy Assignment] Deep copying buffer of size " << other.size << "\n";
         if (this == &other) { return *this; } 
 
@@ -46,14 +48,16 @@ public:
     }
 
     // --- 4. Move Constructor ---
-    DataBuffer(DataBuffer&& other) noexcept : size(other.size), data(other.data) {
+    DataBuffer(DataBuffer&& other) noexcept : size(other.size), data(other.data) 
+    {
         std::cout << "[Move Constructor] Stole buffer of size " << size << "\n";
         other.size = 0;
         other.data = nullptr; 
     }
 
     // --- 5. Move Assignment Operator ---
-    DataBuffer& operator=(DataBuffer&& other) noexcept {
+    DataBuffer& operator=(DataBuffer&& other) noexcept 
+    {
         std::cout << "[Move Assignment] Stole buffer of size " << other.size << "\n";
         if (this == &other) { return *this; } 
 
@@ -69,7 +73,8 @@ public:
     }
 };
 
-int main() {
+int main() 
+{
     std::cout << "--- STARTING PROGRAM ---\n\n";
 
     std::cout << "1. Creating object 'a':\n";
